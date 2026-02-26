@@ -352,7 +352,7 @@
             if (observacao) mensagem += `%0A📝 Observações: ${observacao}`;
 
             // Número do WhatsApp de destino (mantido o original)
-            const url = `https://wa.me/5521970245971text=${mensagem}`;
+            const url = `https://api.whatsapp.com/send/?phone=5521970245971&text&type=phone_number&app_absent=0`;
             window.open(url, "_blank");
         }
     </script>
